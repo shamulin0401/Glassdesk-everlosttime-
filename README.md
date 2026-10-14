@@ -2,7 +2,7 @@
 
 Windows 11 x64 桌面美化工具：玻璃 Dock、启动台和统一设置中心。
 
-[下载正式版本]([https://github.com/everlosttime/glassdesk-updates/releases](https://github.com/shamulin0401/Glassdesk-everlosttime-/releases/tag/v1.0)) · [源码版本](https://github.com/everlosttime/glassdesk-open-source/tags)
+[下载正式版本]([https://github.com/everlosttime/glassdesk-updates/releases](https://github.com/shamulin0401/Glassdesk-everlosttime-/releases/tag/v1.0)) ·  [源码版本](https://github.com/everlosttime/glassdesk-open-source/tags)
 
 ## 许可证
 
