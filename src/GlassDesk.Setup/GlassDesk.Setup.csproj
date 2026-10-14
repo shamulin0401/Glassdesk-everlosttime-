@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- 图形安装向导；静默模式（silent 参数）走同一份逻辑，日志写在 %TEMP%\GlassDesk-Setup.log。 -->
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <UseWindowsForms>false</UseWindowsForms>
+    <AssemblyName>GlassDesk-Setup</AssemblyName>
+    <RootNamespace>GlassDesk.Setup</RootNamespace>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\GlassDesk.App\Assets\GlassDesk.ico</ApplicationIcon>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <!-- 安装载荷：打包前由 build 步骤把 artifacts\publish（去掉 Data）压成 payload.zip 放到本目录。 -->
+  <ItemGroup>
+    <EmbeddedResource Include="payload.zip" Condition="Exists('payload.zip')" LogicalName="payload.zip" />
+  </ItemGroup>
+
+</Project>

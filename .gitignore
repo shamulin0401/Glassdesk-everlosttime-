@@ -1,0 +1,20 @@
+bin/
+obj/
+Data/
+artifacts/
+publish/
+.vs/
+.vscode/
+.idea/
+TestResults/
+*.log
+*.trx
+*.user
+*.suo
+*.pfx
+*.p12
+*.pem
+
+# 安装包的构建中间物（由 build\package-setup.ps1 生成并清理）
+payload.zip
+
