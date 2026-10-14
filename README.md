@@ -2,15 +2,7 @@
 
 Windows 11 x64 桌面美化工具：玻璃 Dock、启动台和统一设置中心。
 
-[下载正式版本](https://github.com/everlosttime/glassdesk-updates/releases) · [源码版本](https://github.com/everlosttime/glassdesk-open-source/tags)
-
-## 公开版本
-
-- v1.2.2：历史源码快照，包含启动台子图标 DPI 事件引发背景重建的修复。
-- v1.3.1：历史源码快照，包含可独立开关的启动台、此电脑、桌面图标显隐入口、外观与后台资源管理改进，以及 Dock 在窗口最大化/还原后刷新玻璃背景的修复。
-- **v1.0：当前版本**。新增 Dock 右侧时间（可精确到秒）、系统托盘面板（收纳通知区域图标与折叠区正在运行的程序，使用真实图标，支持排序/隐藏/固定/退出）、音量页（输出设备选择与按应用调音量）、隐藏系统任务栏（含被结束进程后的守护恢复与启动自愈）、Dock 与启动台的右键入口，以及左键优先激活已有窗口；并修复了一批会影响数据、窗口归属与自动隐藏的缺陷，动画轮询节拍改为跟随实际刷新率（60–300Hz）。详见 [docs/releases/1.0.md](docs/releases/1.0.md)。
-
-每个标签是对应版本的独立完整源码快照。旧开发历史、本机用户数据、截图、日志和验收记录不包含在这个仓库中。原始版本来源见 SOURCE-PROVENANCE.json。
+[下载正式版本]([https://github.com/everlosttime/glassdesk-updates/releases](https://github.com/shamulin0401/Glassdesk-everlosttime-/releases/tag/v1.0)) · [源码版本](https://github.com/everlosttime/glassdesk-open-source/tags)
 
 ## 许可证
 
